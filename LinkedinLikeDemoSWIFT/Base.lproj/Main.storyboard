@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0aU-XQ-uRJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dpa-3f-Mgk">
+            <objects>
+                <viewController id="0aU-XQ-uRJ" customClass="ViewController" customModule="LinkedinLikeDemoSWIFT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Apr-C8-Gtd"/>
+                        <viewControllerLayoutGuide type="bottom" id="NtG-1Q-rYO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tKm-vl-ech">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="2000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tRe-3C-YFr">
+                                <rect key="frame" x="0.0" y="20" width="600" height="1980"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68z-7l-g2s" userLabel="mainContent">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="1278"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OIa-OX-HoA">
+                                                <rect key="frame" x="0.0" y="-1504" width="600" height="1704"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="Background">
+                                                    <bool key="isElement" value="NO"/>
+                                                </accessibility>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGz-Wn-Y5A" userLabel="view1">
+                                                <rect key="frame" x="8" y="150" width="584" height="180"/>
+                                                <color key="backgroundColor" red="0.10980392160000001" green="0.3803921569" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="View1"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="600" id="GEr-Ts-awo"/>
+                                                    <constraint firstAttribute="height" constant="180" id="LKx-98-eBs"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="GEr-Ts-awo"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myHead.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EsO-ea-29V">
+                                                <rect key="frame" x="250" y="100" width="100" height="100"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="myHead"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="2g6-xl-jeT"/>
+                                                    <constraint firstAttribute="width" constant="100" id="fnk-dE-c0p"/>
+                                                    <constraint firstAttribute="width" secondItem="EsO-ea-29V" secondAttribute="height" multiplier="1:1" id="ln0-cr-ZYg"/>
+                                                </constraints>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u3g-Qw-Ai7" userLabel="view2">
+                                                <rect key="frame" x="8" y="338" width="584" height="180"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="view2"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="GBL-7Q-yDT"/>
+                                                    <constraint firstAttribute="width" constant="600" id="LZH-W1-GHP"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="LZH-W1-GHP"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ch1-9T-ks5" userLabel="view3">
+                                                <rect key="frame" x="8" y="526" width="584" height="180"/>
+                                                <color key="backgroundColor" red="0.96078437569999997" green="0.87058830259999997" blue="0.61960786580000005" alpha="1" colorSpace="deviceRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="view3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="Bi5-Zi-bv7"/>
+                                                    <constraint firstAttribute="width" constant="600" id="aav-li-ovt"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="aav-li-ovt"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CKt-dr-MDd" userLabel="view4">
+                                                <rect key="frame" x="8" y="714" width="584" height="180"/>
+                                                <color key="backgroundColor" red="0.93333333330000001" green="0.1764705882" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="view4"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="600" id="1Tn-Db-7T9"/>
+                                                    <constraint firstAttribute="height" constant="180" id="Q0x-ir-Div"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="1Tn-Db-7T9"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfk-d9-he2" userLabel="view5">
+                                                <rect key="frame" x="8" y="902" width="584" height="180"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="view5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="600" id="vZq-bZ-UYs"/>
+                                                    <constraint firstAttribute="height" constant="180" id="vwr-8d-uOm"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="vZq-bZ-UYs"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zli-dt-bRH" userLabel="view6">
+                                                <rect key="frame" x="8" y="1090" width="584" height="180"/>
+                                                <color key="backgroundColor" red="0.75686274509999996" green="0.3803921569" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="view6"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="180" id="iPN-XI-z1T"/>
+                                                    <constraint firstAttribute="width" constant="600" id="qvh-zI-Xtx"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="qvh-zI-Xtx"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="MainContent"/>
+                                        <constraints>
+                                            <constraint firstItem="u3g-Qw-Ai7" firstAttribute="trailing" secondItem="oGz-Wn-Y5A" secondAttribute="trailing" id="1b6-g7-aDe"/>
+                                            <constraint firstItem="rfk-d9-he2" firstAttribute="trailing" secondItem="CKt-dr-MDd" secondAttribute="trailing" id="1dh-mQ-3X6"/>
+                                            <constraint firstItem="OIa-OX-HoA" firstAttribute="bottom" secondItem="oGz-Wn-Y5A" secondAttribute="top" constant="50" id="2PT-ae-zzT"/>
+                                            <constraint firstItem="CKt-dr-MDd" firstAttribute="trailing" secondItem="Ch1-9T-ks5" secondAttribute="trailing" id="AZM-iJ-IFX"/>
+                                            <constraint firstAttribute="height" constant="1398" id="CYZ-QU-bzS"/>
+                                            <constraint firstItem="Ch1-9T-ks5" firstAttribute="top" secondItem="u3g-Qw-Ai7" secondAttribute="bottom" constant="8" id="HDY-CC-MFD"/>
+                                            <constraint firstItem="u3g-Qw-Ai7" firstAttribute="leading" secondItem="oGz-Wn-Y5A" secondAttribute="leading" id="Iwj-WZ-czn"/>
+                                            <constraint firstItem="u3g-Qw-Ai7" firstAttribute="top" secondItem="oGz-Wn-Y5A" secondAttribute="bottom" constant="8" id="Kcq-p0-K5i"/>
+                                            <constraint firstItem="CKt-dr-MDd" firstAttribute="leading" secondItem="Ch1-9T-ks5" secondAttribute="leading" id="LPK-ut-Q6X"/>
+                                            <constraint firstItem="EsO-ea-29V" firstAttribute="centerY" secondItem="oGz-Wn-Y5A" secondAttribute="top" id="Rd2-o6-0lJ"/>
+                                            <constraint firstItem="oGz-Wn-Y5A" firstAttribute="leading" secondItem="68z-7l-g2s" secondAttribute="leading" constant="8" id="SAU-T8-jfP"/>
+                                            <constraint firstItem="Ch1-9T-ks5" firstAttribute="trailing" secondItem="u3g-Qw-Ai7" secondAttribute="trailing" id="TJG-KU-poB"/>
+                                            <constraint firstAttribute="trailing" secondItem="OIa-OX-HoA" secondAttribute="trailing" id="UqJ-Uv-XxJ"/>
+                                            <constraint firstItem="zli-dt-bRH" firstAttribute="trailing" secondItem="rfk-d9-he2" secondAttribute="trailing" id="VrP-QR-Qab"/>
+                                            <constraint firstItem="oGz-Wn-Y5A" firstAttribute="top" secondItem="68z-7l-g2s" secondAttribute="top" constant="150" id="atR-2E-yhH"/>
+                                            <constraint firstItem="rfk-d9-he2" firstAttribute="bottom" secondItem="zli-dt-bRH" secondAttribute="top" constant="-8" id="cSN-r0-57f"/>
+                                            <constraint firstItem="EsO-ea-29V" firstAttribute="centerX" secondItem="oGz-Wn-Y5A" secondAttribute="centerX" id="h7Z-Ad-Upp"/>
+                                            <constraint firstItem="Ch1-9T-ks5" firstAttribute="leading" secondItem="u3g-Qw-Ai7" secondAttribute="leading" id="hGe-OY-V9N"/>
+                                            <constraint firstItem="zli-dt-bRH" firstAttribute="leading" secondItem="rfk-d9-he2" secondAttribute="leading" id="jr8-SW-Zgj"/>
+                                            <constraint firstAttribute="trailing" secondItem="oGz-Wn-Y5A" secondAttribute="trailing" constant="8" id="kkr-Zg-N69"/>
+                                            <constraint firstItem="CKt-dr-MDd" firstAttribute="bottom" secondItem="rfk-d9-he2" secondAttribute="top" constant="-8" id="mKC-vh-dcl"/>
+                                            <constraint firstItem="rfk-d9-he2" firstAttribute="leading" secondItem="CKt-dr-MDd" secondAttribute="leading" id="sAc-hz-YRY"/>
+                                            <constraint firstItem="CKt-dr-MDd" firstAttribute="top" secondItem="Ch1-9T-ks5" secondAttribute="bottom" constant="8" id="vx5-dC-k41"/>
+                                            <constraint firstAttribute="bottom" secondItem="zli-dt-bRH" secondAttribute="bottom" constant="8" id="xAl-zz-kce"/>
+                                            <constraint firstItem="OIa-OX-HoA" firstAttribute="leading" secondItem="68z-7l-g2s" secondAttribute="leading" id="xWY-oF-ogM"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="CYZ-QU-bzS"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="68z-7l-g2s" secondAttribute="trailing" id="DbI-jM-7WP"/>
+                                    <constraint firstItem="68z-7l-g2s" firstAttribute="top" secondItem="tRe-3C-YFr" secondAttribute="top" id="KRb-e4-3Xa"/>
+                                    <constraint firstItem="68z-7l-g2s" firstAttribute="width" secondItem="tRe-3C-YFr" secondAttribute="width" id="Kfj-uM-VsD"/>
+                                    <constraint firstItem="68z-7l-g2s" firstAttribute="leading" secondItem="tRe-3C-YFr" secondAttribute="leading" id="V4h-ea-FaU"/>
+                                    <constraint firstAttribute="bottom" secondItem="68z-7l-g2s" secondAttribute="bottom" id="jfN-u8-dZ3"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tRe-3C-YFr" secondAttribute="trailing" id="2nb-qa-6Mb"/>
+                            <constraint firstItem="OIa-OX-HoA" firstAttribute="top" secondItem="Apr-C8-Gtd" secondAttribute="bottom" priority="750" id="R4Q-31-Vfs"/>
+                            <constraint firstItem="tRe-3C-YFr" firstAttribute="top" secondItem="Apr-C8-Gtd" secondAttribute="bottom" id="TXH-oz-ing"/>
+                            <constraint firstItem="tRe-3C-YFr" firstAttribute="leading" secondItem="tKm-vl-ech" secondAttribute="leading" id="VXU-aN-53e"/>
+                            <constraint firstItem="NtG-1Q-rYO" firstAttribute="top" secondItem="tRe-3C-YFr" secondAttribute="bottom" id="f0r-LT-dVd"/>
+                            <constraint firstItem="tRe-3C-YFr" firstAttribute="width" secondItem="tKm-vl-ech" secondAttribute="width" id="rh7-TE-juP"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="2000"/>
+                    <connections>
+                        <outlet property="imgBackground" destination="OIa-OX-HoA" id="83Q-C9-Rtf"/>
+                        <outlet property="mainScrollView" destination="tRe-3C-YFr" id="AV2-8Z-YVg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7xu-C7-bZJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="496" y="2168"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background.jpg" width="2272" height="1704"/>
+        <image name="myHead.jpg" width="100" height="100"/>
+    </resources>
+</document>
