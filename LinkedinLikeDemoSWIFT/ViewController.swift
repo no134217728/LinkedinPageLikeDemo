@@ -19,7 +19,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         mainScrollView.delegate = self;
     }
     
-    func scrollViewDidScroll(scrollView: UIScrollView) {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
         print(scrollView.contentOffset.y)
         imgBackground.alpha = 1 - (0.5 / 150 * scrollView.contentOffset.y)
     }

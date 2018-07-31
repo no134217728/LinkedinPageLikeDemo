@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0aU-XQ-uRJ">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0aU-XQ-uRJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -25,16 +29,16 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68z-7l-g2s" userLabel="mainContent">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="1278"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OIa-OX-HoA">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OIa-OX-HoA">
                                                 <rect key="frame" x="0.0" y="-1504" width="600" height="1704"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="Background">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGz-Wn-Y5A" userLabel="view1">
                                                 <rect key="frame" x="8" y="150" width="584" height="180"/>
-                                                <color key="backgroundColor" red="0.10980392160000001" green="0.3803921569" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.10980392160000001" green="0.3803921569" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="View1"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="600" id="GEr-Ts-awo"/>
@@ -57,7 +61,7 @@
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u3g-Qw-Ai7" userLabel="view2">
                                                 <rect key="frame" x="8" y="338" width="584" height="180"/>
-                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="view2"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="GBL-7Q-yDT"/>
@@ -71,7 +75,7 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ch1-9T-ks5" userLabel="view3">
                                                 <rect key="frame" x="8" y="526" width="584" height="180"/>
-                                                <color key="backgroundColor" red="0.96078437569999997" green="0.87058830259999997" blue="0.61960786580000005" alpha="1" colorSpace="deviceRGB"/>
+                                                <color key="backgroundColor" red="0.94857561588287354" green="0.84600615501403809" blue="0.55228710174560547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="view3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="Bi5-Zi-bv7"/>
@@ -85,7 +89,7 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CKt-dr-MDd" userLabel="view4">
                                                 <rect key="frame" x="8" y="714" width="584" height="180"/>
-                                                <color key="backgroundColor" red="0.93333333330000001" green="0.1764705882" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.93333333330000001" green="0.1764705882" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="view4"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="600" id="1Tn-Db-7T9"/>
@@ -99,7 +103,7 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfk-d9-he2" userLabel="view5">
                                                 <rect key="frame" x="8" y="902" width="584" height="180"/>
-                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="view5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="600" id="vZq-bZ-UYs"/>
@@ -113,7 +117,7 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zli-dt-bRH" userLabel="view6">
                                                 <rect key="frame" x="8" y="1090" width="584" height="180"/>
-                                                <color key="backgroundColor" red="0.75686274509999996" green="0.3803921569" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.75686274509999996" green="0.3803921569" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="view6"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="iPN-XI-z1T"/>
@@ -126,7 +130,7 @@
                                                 </variation>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration" identifier="MainContent"/>
                                         <constraints>
                                             <constraint firstItem="u3g-Qw-Ai7" firstAttribute="trailing" secondItem="oGz-Wn-Y5A" secondAttribute="trailing" id="1b6-g7-aDe"/>
@@ -162,7 +166,7 @@
                                         </variation>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="68z-7l-g2s" secondAttribute="trailing" id="DbI-jM-7WP"/>
                                     <constraint firstItem="68z-7l-g2s" firstAttribute="top" secondItem="tRe-3C-YFr" secondAttribute="top" id="KRb-e4-3Xa"/>
@@ -172,7 +176,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="tRe-3C-YFr" secondAttribute="trailing" id="2nb-qa-6Mb"/>
                             <constraint firstItem="OIa-OX-HoA" firstAttribute="top" secondItem="Apr-C8-Gtd" secondAttribute="bottom" priority="750" id="R4Q-31-Vfs"/>
